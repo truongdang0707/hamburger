@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Sriracha&display=swap');
+.footer
+{
+	padding: 10px;
+	background-image: url( "../images/footer_bg 1.png"), url(  "../Hamburger/Hamburger/images/ingredient_bg-1 1.png");
+	background-repeat: no-repeat,no-repeat;
+	background-position: top center, top center;
+	margin-top: 100px;
+	min-height: 500px
+}
+.footer-logo
+{
+	width: 100%; 
+	left: 0;
+}
+/*.footer-logo img{width: 130px;
+margin-top: 200px;}*/
+.footer-text
+{
+	margin: 30px;
+}
+.footer-text p
+{
+	color: gray;
+	font-family: 'Patrick Hand', cursive;
+}
+#vung1
+{color: #FFFFFF;
+background-image: url( "../images/Home - Burger.png");
+background-repeat: no-repeat;
+background-position:  90% 70%;
+	background-size:450px;
+	min-height: 600px
+}
+#vung1 .row
+{width: 80%;
+margin: auto}
+#vung1 .row
+{display: flex}
+#vung1 .row .col-7
+{margin-top:150px}
+#vung1 p b span
+{color: #CE362C;
+font-family: 'Paytone One', sans-serif;
+font-size: 18px}
+#vung1 h1 
+{font-family: 'Paytone One', sans-serif;
+	font-size: 50px}
+#vung1 ul
+{display: flex;
+margin-top: 90px;
+padding: 25px 40px;
+background-color: #CE362C;
+justify-content: space-around;
+border-radius: 15px}
+#vung1 ul li p
+{font-family: 'Oswald', sans-serif; }
+#vung1 .container .col-5
+{margin-top: 80px}
+body {
+  margin: 0;
+font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+	background-image: url( "../images/home.png") ;
+	background-repeat: no-repeat;
+	
+	background-size:  150%;
+	}
+.nav-link-1
+{background-color:  #CE362C; 
+	padding: 5px 9px ;
+	border-radius: 15px;
+color: #FFFFFF;}
+.nav-link-1:hover
+{background-color: #FBBE36;
+color:#FFFFFF;
+text-decoration: none}
+
+#welcom
+{
+	background-image: url("../images/footer_bg 1.png"), url("../images/welcome_image1-min 1.png"), url("../images/welcome_image2-min 1.png") ;
+	background-repeat: no-repeat, no-repeat,no-repeat;
+	background-position: left bottom,left bottom, 90% bottom;
+	background-size: auto, auto, 50%;
+	min-height: 900px;
+	
+	margin-right: 100px
+}
+#welcom .row
+{width: 90%;}
+#welcom .container p b
+{color: #CE362C;
+font-family: 'Sriracha', cursive;
+font-size: 28px}
+#welcom .container  h2
+{font-family: 'Paytone One', sans-serif;
+	text-shadow:2px 2px 10px #d5d5d5, 5px 2px 10px rgba(0, 0, 0, 0.2);
+	font-size: 50px
+}
+
+#welcom .container p
+{font-family: 'Patrick Hand', cursive;
+color: #A0A0A0;
+font-size: 20px;}
+#welcom .container a
+{background-color: #CE362C;
+color: #FFFFFF;
+padding: 5px 30px;
+border-radius: 15px;
+font-family: 'Oswald', sans-serif;}
+#welcom .container a:hover
+{text-decoration: none;
+background-color:  #FBBE36;
+color:#FFFFFF}
+#vung2 
+{ text-align: center;
+margin-top: 70px}
+#vung2 p b
+{color:#CE362C;
+  font-family: "Sriracha", cursive;}
+#vung2 h2
+{font-family: 'Paytone One', sans-serif;
+font-size: 40px}
+#vung2 .menu
+{ justify-content: space-between;
+display: flex;
+border: 10px;
+text-decoration: none;
+list-style: none;
+margin-top: 70px}
+#vung2 .menu li a img
+{transition: 0.5s}
+#vung2 .menu li:hover img
+{background-image: url("../images/Hover Thịt hun khói.png"), url( "../images/Hover BBQ BURGER.png"), url("../images/Menu holver.png");
+background-repeat: no-repeat;
+background-size: 100%, 100%, 100%;
+min-height: 100%;}
+#vung3 
+{text-align: center;
+margin-top: 100px;
+background-image: url("../images/menu_pattern3-min 1partten menu.png")}
+#vung3 p b
+{ font-family: "Sriracha", cursive;}
+#vung3 h2
+{font-family: 'Paytone One', sans-serif;
+font-size: 40px}
+/*#vung3 .container ul 
+{display: flex;}*/
+#vung3 .container .row
+{display: flex;
+list-style: none;
+justify-content: space-around;
+align-items: center;
+margin-top: 70px;
+transition: all 0.5s}
+#vung3 .container .row .col-2 a img:hover 
+{transform: scale(1.1)}
+#vung4
+{
+padding: 0px;
+margin-top: 100px;
+justify-content: space-around;
+display: flex;
+margin-left: 1%}
+#vung4 .row
+{margin:auto;
+width: 80%}
+#vung4 ul 
+{list-style: none}
+#vung4 ul li h3
+{font-family: 'Oswald', sans-serif;
+font-size: 25px;
+font-weight: bold}
+#vung4 p
+{font-family: 'Patrick Hand', cursive;
+color: #A0A0A0;
+font-size: 15px;
+text-shadow:2px 2px 1px #d5d5d5, 5px 2px 1px rgba(0, 0, 0, 0.2);}
+
+#vung4 h3 span
+{color:#CE362C }
+#vung4 .menu1 p span
+{background-color: #CE362C;
+color: #FFFFFF;
+padding: 3px 10px;
+border-radius: 15px;
+font-family: 'Oswald', sans-serif;
+font-size: 13px}
+/*#vung4 .menu2 ul 
+{flex-direction: column;
+justify-content: center;
+align-items: center;
+display: block}*/
+#vung4 .menu2 p span
+{background-color: #CE362C;
+color: #FFFFFF;
+padding: 3px 10px;
+border-radius: 15px;
+font-family: 'Oswald', sans-serif;
+font-size: 13px}
+#vung5
+{padding: 0px;
+margin-top: 100px;
+justify-content: space-around;
+display: flex;
+margin-left: 1%}
+#vung5 .row
+{width: 80%;
+margin: auto}
+#vung5 .box
+{text-align: center;
+justify-content: space-around;
+width: 100%
+}
+#vung5 ul
+{display: flex;
+list-style: none;
+justify-content: center;
+align-items: center;
+width: 100%;
+height: auto}
+#vung5 ul li
+{padding: 10px}
+#vung5 .oder2
+{width: 100%;
+height:auto}
+#vung6
+{
+background-image: url("../images/delivery_image-min 1.png"), url("../images/delivery_bike-min 1.png"),url("../images/delivery_bg 1.png");
+background-size: 150px, auto, auto; 
+background-repeat: no-repeat,no-repeat,no-repeat; 
+background-position: right center, center 90%,center top;
+min-height: 650px;
+margin-top: 100px;
+	
+}
+#vung6 .row
+{width:80%;
+margin: auto;
+display: flex;
+top: 300px}
+#vung6 ul
+{display: flex;
+margin-top: 100px;
+list-style: none;
+justify-content: space-between;
+align-items: center;}
+#vung6 ul li
+{padding: 10px}
+#vung6 ul  p b
+{color:#CE362C;
+  font-family: "Sriracha", cursive;}
+#vung6 ul h2
+{font-family: 'Paytone One', sans-serif;
+font-size: 40px}
+#vung6 ul p
+{font-family: 'Patrick Hand', cursive;
+color: #A0A0A0;
+font-size: 15px;}
+#vung6 ul li a {text-decoration: none;}
+#vung6  a p span
+{background-color: #CE362C;
+padding: 5px 10px;
+border-radius: 20px;
+font-family: 'Oswald', sans-serif;
+color: #FFFFFF;}
+#vung6  a p span:hover 
+{background-color: #FBBE36;
+padding: 5px 10px;
+border-radius: 20px;}
+#vung6 .phan-thuong
+{text-align: right}
+#vung7 
+{text-align: center;
+margin-top: 100px;
+background-image: url("../images/testimonial_pattern-min 1.png"), url( "../images/Rectangle 1.png");
+background-repeat: no-repeat,no-repeat;
+background-position: 20% 30%, bottom left;
+min-height: 700px}
+#vung7 .row{width: 80%;
+margin: auto}
+#vung7 ul 
+{display: flex;
+list-style: none;
+justify-content: space-between;
+margin-top: 100px}
+#vung7 ul li
+{width: 50%;
+text-align: left}
+#vung7 p b span
+{color:#CE362C;
+  font-family: "Sriracha", cursive;}
+#vung7 h2
+{font-family: 'Paytone One', sans-serif;
+font-size: 40px}
+
+
+
+
